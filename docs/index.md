@@ -123,5 +123,10 @@
 
     </div>
   </div>
+   <p style="text-align:center; font-size:12px; color:#555;">
+   <br>
+      MkDocs - Currículum desenvolvido por vanderlinuxcode - 2026  
+    </p>
+
 </body>
 </html>

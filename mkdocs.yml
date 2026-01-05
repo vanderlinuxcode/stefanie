@@ -2,6 +2,7 @@ site_name: "Currículum Vitae - Stefanie Tavares dos Reis"
 
 theme:
   name: material
+  custom_dir: overrides
   language: pt-BR
   palette:
     - scheme: default
@@ -10,7 +11,8 @@ theme:
   features:
     - navigation.top
     - toc.integrate   # títulos aparecem na lateral
-
+  generator: false
+    
 markdown_extensions:
   - md_in_html
   - attr_list
@@ -21,4 +23,5 @@ plugins:
   - search
 
 nav:
-  - Currículo: index.md
+  - Currículum: index.md
+
