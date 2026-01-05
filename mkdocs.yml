@@ -1,34 +1,24 @@
-site_name: Curriculum Vitae | Nome Profissional
-site_description: Estrategista Digital & Especialista em Sistemas
-site_author: Seu Nome
-site_url: https://vanderlinuxcode.github.io/stefanie/
+site_name: "Currículo - Stefanie Tavares dos Reis"
 
 theme:
   name: material
   language: pt-BR
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: grey
-      accent: gold
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: gold
   features:
     - navigation.sections
+    - navigation.expand
+    - toc.integrate   # títulos aparecem na lateral
     - navigation.top
-    - content.code.copy
 
 markdown_extensions:
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - pymdownx.tabbed:
+      alternate_style: true
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/seu-usuario
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/seu-perfil
+plugins:
+  - search
+
+nav:
+  - Currículo: index.md
