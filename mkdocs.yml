@@ -10,7 +10,7 @@ theme:
       accent: blue
   features:
     - navigation.top
-    - toc.integrate   # títulos aparecem na lateral
+    - toc.integrate
   generator: false
     
 markdown_extensions:
