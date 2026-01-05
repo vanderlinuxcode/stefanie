@@ -1,118 +1,127 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Stefanie Tavares dos Reis</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        @media print {
-            .no-print { display: none; }
-            body { background-color: white; }
-            .shadow-lg { shadow: none; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum Vitae - Stefanie Tavares dos Reis</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { 
+        font-family: 'Merriweather', serif;
+     }
+   @media print {
+  .no-print {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+  .btn-action {
+  display: inline-block;
+  font-family: 'Merriweather', serif; /* mesma fonte do currículo */
+  background-color: #1E3A8A; /* azul marinho */
+  color: #FFFFFF; /* texto branco */
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.375rem; /* cantos arredondados */
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+.btn-action:hover {
+  background-color: #1E40AF; 
+}
+  </style>
 </head>
-<body class="bg-gray-100 font-sans leading-normal tracking-normal p-4 md:p-10">
 
-    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-        
-        <!-- Header -->
-        <header class="bg-blue-800 text-white p-6 md:p-8">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
-                <div>
-                    <h1 class="text-3xl md:text-4xl font-bold uppercase">Stefanie Tavares dos Reis</h1>
-                    <p class="text-blue-200 text-xl font-medium mt-1">Técnica de Enfermagem</p>
-                    <p class="mt-2 bg-blue-700 inline-block px-3 py-1 rounded text-sm">COREN-DF: 2371628-TE (Ativo)</p>
-                </div>
-                <div class="mt-4 md:mt-0 text-sm space-y-1">
-                    <p><i class="fas fa-envelope mr-2"></i> stefanie.tavaresreis@gmail.com</p>
-                    <p><i class="fas fa-phone mr-2"></i> +55 (61) 98663-9963</p>
-                    <p><i class="fas fa-location-dot mr-2"></i> Taguatinga, Brasília - DF</p>
-                </div>
-            </div>
-        </header>
+<body class="bg-gray-50 leading-relaxed tracking-normal p-6 md:p-10">
 
-        <div class="p-6 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            <!-- Coluna Esquerda -->
-            <div class="md:col-span-1 space-y-8">
-                
-                <section>
-                    <h2 id="objetivo" class="text-blue-800 font-bold border-b-2 border-blue-100 pb-2 mb-3">OBJETIVO</h2>
-                    <p class="text-gray-700 text-sm">Atuar como técnica de enfermagem em instituições de saúde, visando a segurança do paciente e o cuidado humanizado.</p>
-                </section>
+  <div class="max-w-3xl mx-auto bg-white shadow-md rounded-lg overflow-hidden">
 
-                <section>
-                    <h2 id="habilidades" class="text-blue-800 font-bold border-b-2 border-blue-100 pb-2 mb-3">HABILIDADES</h2>
-                    <ul class="text-sm space-y-2 text-gray-700">
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Sinais Vitais</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Punção Venosa</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Bomba de Infusão</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Traqueostomia / GTT</li>
-                        <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Cuidados com Idosos</li>
-                    </ul>
-                </section>
+    <!-- Cabeçalho -->
+    <header class="bg-gray-100 border-b border-gray-300 p-6 text-center">
+      <h1 class="text-3xl font-bold text-gray-900 uppercase">Stefanie Tavares dos Reis</h1>
+      <p class="text-sm text-gray-600 mt-2">
+  COREN-DF: 2371628-TE (Ativo) 
+  <a href="https://www.coren-df.gov.br" target="_blank" class="text-blue-900 hover:underline ml-2">
+    Consultar
+  </a>
+</p>
 
-                <section>
-                    <h2 id="perfil" class="text-blue-800 font-bold border-b-2 border-blue-100 pb-2 mb-3">PERFIL</h2>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-200 px-2 py-1 rounded text-xs">Determinada</span>
-                        <span class="bg-gray-200 px-2 py-1 rounded text-xs">Organizada</span>
-                        <span class="bg-gray-200 px-2 py-1 rounded text-xs">Pontual</span>
-                        <span class="bg-gray-200 px-2 py-1 rounded text-xs">Disciplinada</span>
-                    </div>
-                </section>
-            </div>
+      <div class="mt-4 text-sm text-gray-700 space-y-1">
+        <p>📧 stefanie.tavaresreis@gmail.com</p>
+       <p> 📞 <a href="https://wa.me/5561986639963" target="_blank" class="text-blue-900 hover:underline">💬 +55 (61) 98663-9963 (WhatsApp) </a> </p>
+        <p>🏠 QNM 42 Conjunto F casa 43 </br> Bairro M Norte - CEP 72.146-206 Cidade: Taguatinga Norte, Brasília - DF</p>
+      </div>
+    </header>
 
-            <!-- Coluna Direita -->
-            <div class="md:col-span-2 space-y-8">
-                
-                <section>
-                    <h2 id="formacao" class="text-blue-800 font-bold border-b-2 border-blue-100 pb-2 mb-4"><i class="fas fa-graduation-cap mr-2"></i>FORMAÇÃO</h2>
-                    <div class="mb-4">
-                        <h3 class="font-bold text-gray-800">Técnica em Enfermagem</h3>
-                        <p class="text-sm text-blue-600">Escola de Inovação Educacional em Saúde (CIES)</p>
-                        <p class="text-xs text-gray-500 italic">Conclusão: 13/07/2025 | Carga Horária: 1.840 hrs</p>
-                    </div>
-                </section>
+    <!-- Conteúdo vertical -->
+    <div class="p-6 space-y-8">
 
-                <section>
-                    <h2 id="experiencia" class="text-blue-800 font-bold border-b-2 border-blue-100 pb-2 mb-4"><i class="fas fa-briefcase mr-2"></i>EXPERIÊNCIA E ESTÁGIOS</h2>
-                    <div class="space-y-4">
-                        <div class="border-l-4 border-blue-200 pl-4">
-                            <h3 class="font-bold text-gray-800 text-sm">Estágios Hospitalares (HRT, HRAN, HRC)</h3>
-                            <p class="text-xs text-gray-600 mb-1">Total: 230 horas acumuladas</p>
-                            <p class="text-sm text-gray-700">Assistência em tratamentos clínicos e cirúrgicos críticos. Administração de medicamentos e integração dos cuidados de enfermagem.</p>
-                        </div>
-                        <div class="border-l-4 border-blue-200 pl-4">
-                            <h3 class="font-bold text-gray-800 text-sm">Plantão Domiciliar (Home Care)</h3>
-                            <p class="text-sm text-gray-700">Atendimento 12h e 24h, gerenciamento de cuidados domiciliares e bem-estar do paciente.</p>
-                        </div>
-                    </div>
-                </section>
+      <section>
+        <h2 class="text-xl font-bold text-blue-900 border-b pb-2 mb-3">Objetivo</h2>
+        <p class="text-gray-700 text-sm">Atuar como técnica de enfermagem em instituições de saúde, visando a segurança do paciente e o cuidado humanizado.</p>
+      </section>
 
-                <section>
-                    <h2 id="cursos" class="text-blue-800 font-bold border-b-2 border-blue-100 pb-2 mb-4"><i class="fas fa-award mr-2"></i>OUTROS CURSOS</h2>
-                    <ul class="text-sm text-gray-700 space-y-2">
-                        <li><strong>Qualificação Técnica em Cuidador de Idosos:</strong> CIES (1.000 hrs).</li>
-                        <li><strong>Capacitação em Saúde:</strong> APH, Feridas e Curativos, Flebotomia.</li>
-                        <li><strong>Informática:</strong> Pacote Office e Windows (Instituto Luel).</li>
-                    </ul>
-                </section>
+      <section>
+        <h2 class="text-xl font-bold text-blue-900 border-b pb-2 mb-3">Habilidades</h2>
+        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+          <li>Sinais Vitais</li>
+          <li>Punção Venosa</li>
+          <li>Bomba de Infusão</li>
+          <li>Traqueostomia / GTT</li>
+          <li>Cuidados com Idosos</li>
+        </ul>
+      </section>
 
-                <!-- Box de Download PDF -->
-                <section class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-lg mt-6">
-                  <h2 class="text-blue-800 font-bold mb-2"><i class="fas fa-file-pdf mr-2"></i>Baixar Currículo</h2>
-                  <p class="text-sm text-gray-700 mb-2">Clique abaixo para obter a versão em PDF:</p>
-                  <a href="Currículum-stefanie.pdf" class="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
-                    ⬇️ Download PDF
-                  </a>
-                </section>
-            </div>
-        </div>
-        
-        <footer class="bg-gray-50 p-4 text-center text-xs text-gray-500 no-print">
-            <button onclick="window.print()" class="bg-blue-800 text-white px-4 py-2 rounded hover:bg-blue-700 transition">
-                <i class="fas fa-print
+      <section>
+        <h2 class="text-xl font-bold text-blue-900 border-b pb-2 mb-3">Perfil</h2>
+        <p class="text-gray-700 text-sm">Determinada, organizada, pontual e disciplinada.</p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-blue-900 border-b pb-2 mb-3">Formação</h2>
+        <p class="text-gray-700 text-sm">
+          <strong>Técnica em Enfermagem</strong> — Escola de Inovação Educacional em Saúde (CIES)<br>
+          <span class="text-xs text-gray-500 italic">Conclusão: 13/07/2025 | Carga Horária: 1.840 hrs</span>
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-blue-900 border-b pb-2 mb-3">Experiência e Estágios</h2>
+        <p class="text-gray-700 text-sm">
+          <strong>Estágios Hospitalares (HRT, HRAN, HRC)</strong> — 230 horas acumuladas.<br>
+          Assistência em tratamentos clínicos e cirúrgicos críticos. Administração de medicamentos e integração dos cuidados de enfermagem.
+        </p>
+        <p class="text-gray-700 text-sm mt-2">
+          <strong>Plantão Domiciliar (Home Care)</strong> — Atendimento 12h e 24h, gerenciamento de cuidados domiciliares e bem-estar do paciente.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-xl font-bold text-blue-900 border-b pb-2 mb-3">Outros Cursos</h2>
+        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+          <li>Qualificação Técnica em Cuidador de Idosos — CIES (1.000 hrs)</li>
+          <li>Capacitação em Saúde — APH, Feridas e Curativos, Flebotomia</li>
+          <li>Informática — Pacote Office e Windows (Instituto Luel)</li>
+        </ul>
+      </section>
+
+     <!-- Caixa de Download PDF -->
+<section class="bg-gray-100 border border-gray-300 p-4 rounded-lg text-center no-print">
+  <h2 class="text-lg font-bold text-gray-800 mb-2">📄 Baixar Currículo</h2>
+  <p class="text-sm text-gray-700 mb-3">Clique abaixo para obter a versão em PDF:</p>
+  <a href="Currículum-stefanie.pdf" class="btn-action">⬇️ Download PDF</a>
+</section>
+
+<!-- Caixa de Imprimir -->
+<section class="bg-gray-100 border border-gray-300 p-4 rounded-lg text-center no-print">
+  <h2 class="text-lg font-bold text-gray-800 mb-2">🖨️ Imprimir Currículo</h2>
+  <p class="text-sm text-gray-700 mb-3">Clique abaixo para gerar uma versão impressa:</p>
+  <button onclick="window.print()" class="btn-action">Imprimir</button>
+</section>
+
+    </div>
+  </div>
+</body>
+</html>

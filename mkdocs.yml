@@ -1,21 +1,21 @@
-site_name: "Currículo - Stefanie Tavares dos Reis"
+site_name: "Currículum Vitae - Stefanie Tavares dos Reis"
 
 theme:
   name: material
   language: pt-BR
+  palette:
+    - scheme: default
+      primary: pink
+      accent: blue
   features:
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate   # títulos aparecem na lateral
     - navigation.top
+    - toc.integrate   # títulos aparecem na lateral
 
 markdown_extensions:
-  - attr_list
   - md_in_html
+  - attr_list
   - pymdownx.superfences
   - pymdownx.magiclink
-  - pymdownx.tabbed:
-      alternate_style: true
 
 plugins:
   - search
